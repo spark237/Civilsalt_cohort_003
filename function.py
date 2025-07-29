@@ -11,6 +11,12 @@ def is_even(number):
     return number % 2 == 0
 
 # --- Test Calls (Optional for practice) ---
-greet_user("Alice")
-print("Area:", calculate_area(5, 3))
-print("Is 4 even?", is_even(4))
+name = input("Enter your name: ")
+greet_user(name)
+
+length = float(input("Enter the length: "))
+width = float(input("Enter the width: "))
+print("Area:", calculate_area(length, width))
+
+number = int(input("Enter a number: "))
+print(f"Is {number} even?", is_even(number))
