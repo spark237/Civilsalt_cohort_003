@@ -13,7 +13,7 @@ def is_even(number):
 # --- Test Calls (Optional for practice) ---
 name = input("Enter your name: ")
 greet_user(name)
-
+# -- area
 length = float(input("Enter the length: "))
 width = float(input("Enter the width: "))
 print("Area:", calculate_area(length, width))
