@@ -17,9 +17,14 @@ class Student(Person):
         print(f"{self.name} is studying {self.course}.")
 
 # --- Test Calls ---
-person1 = Person("John", 40)
+name = input("Enter person's name: ")
+age = int(input("Enter person's age: "))
+person1 = Person(name, age)
 person1.introduce()
 
-student1 = Student("Emma", 22, "Python Programming")
+student_name = input("Enter student's name: ")
+student_age = int(input("Enter student's age: "))
+course = input("Enter student's course: ")
+student1 = Student(student_name, student_age, course)
 student1.introduce()
 student1.study()
