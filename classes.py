@@ -21,7 +21,7 @@ name = input("Enter person's name: ")
 age = int(input("Enter person's age: "))
 person1 = Person(name, age)
 person1.introduce()
-
+#---- stud calls ----
 student_name = input("Enter student's name: ")
 student_age = int(input("Enter student's age: "))
 course = input("Enter student's course: ")
